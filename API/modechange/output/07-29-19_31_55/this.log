@@ -1,0 +1,19 @@
+Mon, 29 Jul 2019 19:31:55 [line:138] INFO ============start loop 1============
+Mon, 29 Jul 2019 19:31:58 [line:48] INFO Turn On
+Mon, 29 Jul 2019 19:31:58 [line:143] INFO start  and sleep 60
+Mon, 29 Jul 2019 19:33:05 [line:42] INFO Turn Off
+Mon, 29 Jul 2019 19:33:05 [line:138] INFO ============start loop 2============
+Mon, 29 Jul 2019 19:33:08 [line:48] INFO Turn On
+Mon, 29 Jul 2019 19:33:08 [line:143] INFO start  and sleep 60
+Mon, 29 Jul 2019 19:34:16 [line:42] INFO Turn Off
+Mon, 29 Jul 2019 19:34:16 [line:138] INFO ============start loop 3============
+Mon, 29 Jul 2019 19:34:19 [line:48] INFO Turn On
+Mon, 29 Jul 2019 19:34:19 [line:143] INFO start  and sleep 60
+Mon, 29 Jul 2019 19:35:26 [line:42] INFO Turn Off
+Mon, 29 Jul 2019 19:35:26 [line:138] INFO ============start loop 4============
+Mon, 29 Jul 2019 19:35:29 [line:48] INFO Turn On
+Mon, 29 Jul 2019 19:35:29 [line:143] INFO start  and sleep 60
+Mon, 29 Jul 2019 19:36:37 [line:42] INFO Turn Off
+Mon, 29 Jul 2019 19:36:37 [line:138] INFO ============start loop 5============
+Mon, 29 Jul 2019 19:36:40 [line:48] INFO Turn On
+Mon, 29 Jul 2019 19:36:40 [line:143] INFO start  and sleep 60

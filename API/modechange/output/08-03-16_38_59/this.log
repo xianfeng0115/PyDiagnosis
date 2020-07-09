@@ -1,0 +1,5 @@
+Sat, 03 Aug 2019 16:38:59 [line:184] INFO ============start loop 1============
+Sat, 03 Aug 2019 16:39:02 [line:47] INFO Turn On
+Sat, 03 Aug 2019 16:39:02 [line:189] INFO start  and sleep 60
+Sat, 03 Aug 2019 16:39:02 [line:205] ERROR 'ADB' object has no attribute '_ADB__command'
+Sat, 03 Aug 2019 16:39:02 [line:206] INFO End!

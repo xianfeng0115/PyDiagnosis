@@ -1,0 +1,186 @@
+Fri, 15 Mar 2019 09:31:08 [line:168] INFO ============start loop 1============
+Fri, 15 Mar 2019 09:31:08 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:31:09 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:31:49 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:31:49 [line:187] INFO power_off_type1:Press Shoutdown Key to shoutdown DUT
+Fri, 15 Mar 2019 09:31:54 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:31:54 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:31:54 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:31:55 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:32:00 [line:197] INFO end loop 1
+Fri, 15 Mar 2019 09:32:03 [line:168] INFO ============start loop 2============
+Fri, 15 Mar 2019 09:32:03 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:32:04 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:32:44 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:32:44 [line:123] INFO power_off_type1:Short Press Reset Key to restart DUT 
+Fri, 15 Mar 2019 09:32:49 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:32:49 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:32:50 [line:104] INFO click reset button for: 5 s
+Fri, 15 Mar 2019 09:33:40 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:33:40 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:33:41 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:33:42 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:33:47 [line:197] INFO end loop 2
+Fri, 15 Mar 2019 09:33:50 [line:168] INFO ============start loop 3============
+Fri, 15 Mar 2019 09:33:50 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:33:51 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:34:31 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:34:31 [line:187] INFO power_off_type1:Press Shoutdown Key to shoutdown DUT
+Fri, 15 Mar 2019 09:34:36 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:34:36 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:34:36 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:34:37 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:34:42 [line:197] INFO end loop 3
+Fri, 15 Mar 2019 09:34:45 [line:168] INFO ============start loop 4============
+Fri, 15 Mar 2019 09:34:45 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:34:46 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:35:26 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:35:26 [line:141] INFO power_off_type1:Lone Press Reset Key to shoutdown DUT 
+Fri, 15 Mar 2019 09:35:31 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:35:31 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:35:32 [line:104] INFO click reset button for: 9 s
+Fri, 15 Mar 2019 09:35:49 [line:197] INFO end loop 4
+Fri, 15 Mar 2019 09:35:52 [line:168] INFO ============start loop 5============
+Fri, 15 Mar 2019 09:35:52 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:35:53 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:36:33 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:36:33 [line:141] INFO power_off_type1:Lone Press Reset Key to shoutdown DUT 
+Fri, 15 Mar 2019 09:36:38 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:36:38 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:36:39 [line:104] INFO click reset button for: 8 s
+Fri, 15 Mar 2019 09:36:55 [line:197] INFO end loop 5
+Fri, 15 Mar 2019 09:36:58 [line:168] INFO ============start loop 6============
+Fri, 15 Mar 2019 09:36:58 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:36:59 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:37:39 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:37:39 [line:123] INFO power_off_type1:Short Press Reset Key to restart DUT 
+Fri, 15 Mar 2019 09:37:44 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:37:44 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:37:45 [line:104] INFO click reset button for: 3 s
+Fri, 15 Mar 2019 09:38:33 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:38:33 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:38:35 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:38:36 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:38:41 [line:197] INFO end loop 6
+Fri, 15 Mar 2019 09:38:44 [line:168] INFO ============start loop 7============
+Fri, 15 Mar 2019 09:38:44 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:38:45 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:39:25 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:39:25 [line:141] INFO power_off_type1:Lone Press Reset Key to shoutdown DUT 
+Fri, 15 Mar 2019 09:39:30 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:39:30 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:39:31 [line:104] INFO click reset button for: 8 s
+Fri, 15 Mar 2019 09:39:47 [line:197] INFO end loop 7
+Fri, 15 Mar 2019 09:39:50 [line:168] INFO ============start loop 8============
+Fri, 15 Mar 2019 09:39:50 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:39:51 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:40:31 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:40:31 [line:187] INFO power_off_type1:Press Shoutdown Key to shoutdown DUT
+Fri, 15 Mar 2019 09:40:36 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:40:36 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:40:36 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:40:37 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:40:42 [line:197] INFO end loop 8
+Fri, 15 Mar 2019 09:40:45 [line:168] INFO ============start loop 9============
+Fri, 15 Mar 2019 09:40:45 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:40:46 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:41:26 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:41:26 [line:187] INFO power_off_type1:Press Shoutdown Key to shoutdown DUT
+Fri, 15 Mar 2019 09:41:31 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:41:31 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:41:31 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:41:32 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:41:37 [line:197] INFO end loop 9
+Fri, 15 Mar 2019 09:41:40 [line:168] INFO ============start loop 10============
+Fri, 15 Mar 2019 09:41:40 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:41:41 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:42:21 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:42:21 [line:187] INFO power_off_type1:Press Shoutdown Key to shoutdown DUT
+Fri, 15 Mar 2019 09:42:26 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:42:26 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:42:26 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:42:27 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:42:32 [line:197] INFO end loop 10
+Fri, 15 Mar 2019 09:42:35 [line:168] INFO ============start loop 11============
+Fri, 15 Mar 2019 09:42:35 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:42:36 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:43:16 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:43:16 [line:123] INFO power_off_type1:Short Press Reset Key to restart DUT 
+Fri, 15 Mar 2019 09:43:21 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:43:21 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:43:22 [line:104] INFO click reset button for: 2 s
+Fri, 15 Mar 2019 09:44:09 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:44:09 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:44:10 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:44:11 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:44:16 [line:197] INFO end loop 11
+Fri, 15 Mar 2019 09:44:19 [line:168] INFO ============start loop 12============
+Fri, 15 Mar 2019 09:44:19 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:44:20 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:45:00 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:45:00 [line:141] INFO power_off_type1:Lone Press Reset Key to shoutdown DUT 
+Fri, 15 Mar 2019 09:45:05 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:45:05 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:45:06 [line:104] INFO click reset button for: 8 s
+Fri, 15 Mar 2019 09:45:22 [line:197] INFO end loop 12
+Fri, 15 Mar 2019 09:45:25 [line:168] INFO ============start loop 13============
+Fri, 15 Mar 2019 09:45:25 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:45:26 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:46:06 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:46:06 [line:141] INFO power_off_type1:Lone Press Reset Key to shoutdown DUT 
+Fri, 15 Mar 2019 09:46:11 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:46:11 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:46:12 [line:104] INFO click reset button for: 10 s
+Fri, 15 Mar 2019 09:46:30 [line:197] INFO end loop 13
+Fri, 15 Mar 2019 09:46:33 [line:168] INFO ============start loop 14============
+Fri, 15 Mar 2019 09:46:33 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:46:34 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:47:14 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:47:14 [line:141] INFO power_off_type1:Lone Press Reset Key to shoutdown DUT 
+Fri, 15 Mar 2019 09:47:19 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:47:19 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:47:20 [line:104] INFO click reset button for: 9 s
+Fri, 15 Mar 2019 09:47:37 [line:197] INFO end loop 14
+Fri, 15 Mar 2019 09:47:40 [line:168] INFO ============start loop 15============
+Fri, 15 Mar 2019 09:47:40 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:47:41 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:48:21 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:48:21 [line:123] INFO power_off_type1:Short Press Reset Key to restart DUT 
+Fri, 15 Mar 2019 09:48:26 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:48:26 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:48:27 [line:104] INFO click reset button for: 6 s
+Fri, 15 Mar 2019 09:49:18 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:49:18 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:49:19 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:49:20 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:49:25 [line:197] INFO end loop 15
+Fri, 15 Mar 2019 09:49:28 [line:168] INFO ============start loop 16============
+Fri, 15 Mar 2019 09:49:28 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:49:29 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:50:09 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:50:09 [line:141] INFO power_off_type1:Lone Press Reset Key to shoutdown DUT 
+Fri, 15 Mar 2019 09:50:14 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:50:14 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:50:15 [line:104] INFO click reset button for: 11 s
+Fri, 15 Mar 2019 09:50:34 [line:197] INFO end loop 16
+Fri, 15 Mar 2019 09:50:37 [line:168] INFO ============start loop 17============
+Fri, 15 Mar 2019 09:50:37 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:50:38 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:51:18 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:51:18 [line:141] INFO power_off_type1:Lone Press Reset Key to shoutdown DUT 
+Fri, 15 Mar 2019 09:51:23 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:51:23 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:51:24 [line:104] INFO click reset button for: 11 s
+Fri, 15 Mar 2019 09:51:43 [line:197] INFO end loop 17
+Fri, 15 Mar 2019 09:51:46 [line:168] INFO ============start loop 18============
+Fri, 15 Mar 2019 09:51:46 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:51:47 [line:65] INFO release, switch button off
+Fri, 15 Mar 2019 09:52:27 [line:184] INFO WAITTING_TIME 35s
+Fri, 15 Mar 2019 09:52:27 [line:141] INFO power_off_type1:Lone Press Reset Key to shoutdown DUT 
+Fri, 15 Mar 2019 09:52:32 [line:72] INFO check at com
+Fri, 15 Mar 2019 09:52:32 [line:76] INFO at com ok
+Fri, 15 Mar 2019 09:52:33 [line:104] INFO click reset button for: 10 s
+Fri, 15 Mar 2019 09:52:51 [line:197] INFO end loop 18
+Fri, 15 Mar 2019 09:52:54 [line:168] INFO ============start loop 19============
+Fri, 15 Mar 2019 09:52:54 [line:95] INFO click power switch button
+Fri, 15 Mar 2019 09:52:55 [line:65] INFO release, switch button off

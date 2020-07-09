@@ -1,0 +1,5 @@
+Sat, 03 Aug 2019 16:13:48 [line:184] INFO ============start loop 1============
+Sat, 03 Aug 2019 16:13:51 [line:47] INFO Turn On
+Sat, 03 Aug 2019 16:13:51 [line:189] INFO start  and sleep 60
+Sat, 03 Aug 2019 16:13:51 [line:205] ERROR sequence item 0: expected str instance, bytes found
+Sat, 03 Aug 2019 16:13:51 [line:206] INFO End!

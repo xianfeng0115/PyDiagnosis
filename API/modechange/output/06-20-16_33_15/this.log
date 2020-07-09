@@ -1,0 +1,3 @@
+Thu, 20 Jun 2019 16:33:15 [line:143] INFO ============start loop 1============
+Thu, 20 Jun 2019 16:33:15 [line:178] ERROR unbound method usb_off() must be called with SerialPort instance as first argument (got nothing instead)
+Thu, 20 Jun 2019 16:33:15 [line:179] INFO End!

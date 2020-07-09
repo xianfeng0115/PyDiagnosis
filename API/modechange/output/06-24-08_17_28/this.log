@@ -1,0 +1,8 @@
+Mon, 24 Jun 2019 08:17:28 [line:126] INFO ============start loop 1============
+Mon, 24 Jun 2019 08:17:31 [line:48] INFO Turn On
+Mon, 24 Jun 2019 08:19:51 [line:54] INFO root_start
+Mon, 24 Jun 2019 08:20:31 [line:61] INFO root_start
+Mon, 24 Jun 2019 08:20:37 [line:84] INFO check_ps
+Mon, 24 Jun 2019 08:20:57 [line:88] INFO result = 
+Mon, 24 Jun 2019 08:20:57 [line:146] INFO ps not ok
+Mon, 24 Jun 2019 08:20:57 [line:156] INFO End!

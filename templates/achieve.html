@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+{% block content %}
+    <p>{{ tasks|length }} Titles</p>
+    <a class="btn" href="{{ url_for('index')}}">Back</a>
+    <ul class="altask-list">
+        {% for i in tasks %}
+            <li>{{ i.title }} - {{ i.year }}
+                <span class="float-right">
+                    <form	class="inline-form"	method="post"	action="{{	url_for('redo',task_id=i.id)	}}">
+                        <input	class="achieve"	type="submit"	name="Redo"	value="Re-do"	onclick="return	confirm('Are you sure?')">
+                    </form>
+                </span>
+            </li>
+        {% endfor %}
+    </ul>
+    <img class="Doraemon" alt="Hello Doraemon" src="{{ url_for('static', filename='images/Doraemon.png') }}">
+{% endblock %}
+</html>

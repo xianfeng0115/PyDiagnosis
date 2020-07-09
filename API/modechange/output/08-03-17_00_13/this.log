@@ -1,0 +1,9 @@
+Sat, 03 Aug 2019 17:00:13 [line:192] INFO ============start loop 1============
+Sat, 03 Aug 2019 17:00:16 [line:47] INFO Turn On
+Sat, 03 Aug 2019 17:00:16 [line:197] INFO start  and sleep 60
+Sat, 03 Aug 2019 17:00:21 [line:1819] INFO Connected (version 2.0, client OpenSSH_7.5)
+Sat, 03 Aug 2019 17:00:21 [line:1819] INFO Authentication (none) successful!
+Sat, 03 Aug 2019 17:00:25 [line:41] INFO Turn Off
+Sat, 03 Aug 2019 17:00:25 [line:192] INFO ============start loop 2============
+Sat, 03 Aug 2019 17:00:28 [line:47] INFO Turn On
+Sat, 03 Aug 2019 17:00:28 [line:197] INFO start  and sleep 60

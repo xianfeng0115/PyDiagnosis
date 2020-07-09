@@ -1,0 +1,148 @@
+/* 页面整体 */
+body {
+margin: auto;
+max-width: 580px;
+font-size: 14px;
+font-family: Helvetica, Arial, sans-serif;
+}
+/* 页脚 */
+footer {
+color: #888;
+margin-top: 15px;
+text-align: center;
+padding: 10px;
+}
+/* 头像 */
+.avatar {
+width: 40px;
+}
+
+/* 任务列表 */
+.task-list {
+list-style-type: none;
+padding: 0;
+margin-bottom: 10px;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rg
+ba(0, 0, 0, 0.12);
+}
+.task-list li {
+padding: 12px 24px;
+border-bottom: 1px solid #ddd;
+}
+.task-list li:last-child {
+border-bottom:none;
+}
+.task-list li:hover {
+background-color: #f8f9fa;
+}
+
+/* 完成任务列表 */
+.altask-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px 0 rgba(220, 235, 11, 0.795), 0 2px 10px 0 rg
+    ba(0, 0, 0, 0.12);
+    }
+.altask-list li {
+    padding: 12px 24px;
+    border-bottom: 1px solid #ddd;
+    }
+.altask-list li:last-child {
+    border-bottom:none;
+    }
+.altask-list li:hover {
+    background-color: #f8f9fa;
+    }
+
+/* 哆啦A梦图片 */
+.Doraemon {
+display: block;
+margin: 0 auto;
+height: 100px;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+nav li {
+float: left;
+}
+nav li a {
+display: block;
+color: white;
+text-align: center;
+padding: 8px 12px;
+text-decoration: none;
+}
+nav li a:hover {
+background-color: #111;
+}
+
+.float-right {
+float: right;
+}
+
+.achieve {
+font-size: 12px;
+font-weight: bold;
+color: rgb(15, 15, 15);
+text-decoration: none;
+background: rgb(252, 206, 41);
+border-radius: 5px;
+padding: 3px 5px;
+}
+.achieve:hover {
+    color: rgb(252, 248, 248);
+    text-decoration: none;
+    background: rgb(0, 2, 7);
+}
+
+/* 表单数据编辑 */
+input[type=submit] {
+    font-family: inherit;
+    }
+input[type=text] {
+border: 1px solid #ddd;
+}
+input[name=year] {
+width: 50px;
+}
+.btn {
+font-size: 12px;
+padding: 3px 5px;
+text-decoration: none;
+cursor: pointer;
+background-color: white;
+color: black;
+border: 1px solid #555555;
+border-radius: 5px;
+}
+.btn:hover {
+text-decoration: none;
+background-color: black;
+color: white;
+border: 1px solid black;
+}
+
+/*任务增加样式*/
+.alert {
+    position: relative;
+    padding: 7px;
+    margin: 7px 0;
+    border: 1px solid transparent;
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    border-radius: 5px;
+    }
+
+ /*删除样式*/   
+.inline-form	{
+    display:	inline;
+    }
+    

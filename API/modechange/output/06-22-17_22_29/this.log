@@ -1,0 +1,4 @@
+Sat, 22 Jun 2019 17:22:29 [line:126] INFO ============start loop 1============
+Sat, 22 Jun 2019 17:22:32 [line:48] INFO Turn On
+Sat, 22 Jun 2019 17:22:32 [line:155] ERROR could not open port 'COM18': WindowsError(2, '\xcf\xb5\xcd\xb3\xd5\xd2\xb2\xbb\xb5\xbd\xd6\xb8\xb6\xa8\xb5\xc4\xce\xc4\xbc\xfe\xa1\xa3')
+Sat, 22 Jun 2019 17:22:32 [line:156] INFO End!

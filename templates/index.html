@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+{% block content %}
+    <p>{{ tasks|length }} Titles</p>
+    <form method="post">
+        Name <input type="text" name="title" autocomplete="off" required>
+        Year <input type="text" name="year" autocomplete="off" required>
+        <input class="btn" type="submit" name="submit" value="Add">
+        <a class="btn" href="{{ url_for('achieve')}}">已完成任务</a>
+        <a class="btn" href="{{ url_for('test')}}">Test</a>
+        结果是：{{ result }}
+    </form>
+    <ul class="task-list">
+        {% for i in tasks %} {# 迭代 movies 变量 #}
+            <li>{{ i.title }} - {{ i.year }}
+                <span class="float-right">
+                <a class="btn" href="{{ url_for('edit', task_id=i.id) }}">Edit</a>
+                <form	class="inline-form"	method="post"	action="{{	url_for('delete',task_id=i.id)	}}">
+                    <input	class="btn"	type="submit"	name="delete"	value="Delete"	onclick="return	confirm('Are you sure?')">
+                </form>
+                <form	class="inline-form"	method="post"	action="{{	url_for('complete',task_id=i.id)	}}">
+                    <input	class="achieve"	type="submit"	name="Achieve"	value="Achieve"	onclick="return	confirm('Are you complete?')">
+                </form>
+                </span>
+            </li> {# 等同于i['title'] #}
+        {% endfor %}
+    </ul>
+    <img class="Doraemon" alt="Hello Doraemon" src="{{ url_for('static', filename='images/Doraemon.png') }}">
+{% endblock %}
+</html>

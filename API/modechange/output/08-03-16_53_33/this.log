@@ -1,0 +1,5 @@
+Sat, 03 Aug 2019 16:53:33 [line:195] INFO ============start loop 1============
+Sat, 03 Aug 2019 16:53:36 [line:47] INFO Turn On
+Sat, 03 Aug 2019 16:53:36 [line:200] INFO start  and sleep 60
+Sat, 03 Aug 2019 16:53:36 [line:216] ERROR name 'basestring' is not defined
+Sat, 03 Aug 2019 16:53:36 [line:217] INFO End!

@@ -1,0 +1,5 @@
+Sat, 09 May 2020 16:28:11 [line:224] INFO ============start loop 1============
+Sat, 09 May 2020 16:28:11 [line:252] ERROR could not open port 'COM8': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)
+Sat, 09 May 2020 16:28:11 [line:253] INFO End!
+Sat, 09 May 2020 16:28:14 [line:43] INFO Turn Off
+Sat, 09 May 2020 16:28:47 [line:49] INFO Turn On

@@ -1,0 +1,5 @@
+Sat, 03 Aug 2019 16:21:29 [line:184] INFO ============start loop 1============
+Sat, 03 Aug 2019 16:21:32 [line:47] INFO Turn On
+Sat, 03 Aug 2019 16:21:32 [line:189] INFO start  and sleep 60
+Sat, 03 Aug 2019 16:21:37 [line:205] ERROR 'NoneType' object has no attribute 'auth_none'
+Sat, 03 Aug 2019 16:21:37 [line:206] INFO End!

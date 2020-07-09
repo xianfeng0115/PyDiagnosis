@@ -1,0 +1,33 @@
+log_path=`date +%Y%m%d`_`date +%H%M%S`.log
+log_path1=iozone_etc_rw_$log_path
+log_path2=iozone_logfs_$log_path
+log_path3=iozone_cache_$log_path
+log_path4=iozone_firmware_$log_path
+log_path5=iozone_avmap_rw​_$log_path
+log_path6=iozone_wlan_backups_$log_path
+
+
+for a in `seq 902`
+do(
+	echo "loop $a start" >> /etc_rw/iozone_test/log/$log_path
+	/etc_rw/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g16m -i 0 -i 1 -i 2 -o -f /etc_rw/iozone_test/log/test
+	/etc_rw/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g16m -i 0 -i 1 -i 2 -o -f /etc_rw/iozone_test/log/test
+	/etc_rw/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g16m -i 0 -i 1 -i 2 -o -f /etc_rw/iozone_test/log/test
+	/etc_rw/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g16m -i 0 -i 1 -i 2 -o -f /etc_rw/iozone_test/log/test
+	/etc_rw/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g16m -i 0 -i 1 -i 2 -o -f /etc_rw/iozone_test/log/test
+	/etc_rw/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g16m -i 0 -i 1 -i 2 -o -f /etc_rw/iozone_test/log/test
+
+	/logfs/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g12m -i 0 -i 1 -i 2 -o -f /logfs/iozone_test/log/test
+	/logfs/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g12m -i 0 -i 1 -i 2 -o -f /logfs/iozone_test/log/test
+	/logfs/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g12m -i 0 -i 1 -i 2 -o -f /logfs/iozone_test/log/test
+	
+	/cache/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g50m -i 0 -i 1 -i 2 -o -f /cache/iozone_test/log/test
+
+	/lib/firmware/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g7m -i 0 -i 1 -i 2 -o -f /lib/firmware/iozone_test/log/test
+
+	/etc/avmap_rw/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g19m -i 0 -i 1 -i 2 -o -f /etc/avmap_rw/iozone_test/log/test
+
+	/usr/wlan_backups/iozone_test/iozone -azeci -+n -L64 -S32 -y4k -q128k -n4k -g8m -i 0 -i 1 -i 2 -o -f /usr/wlan_backups/iozone_test/log/test
+	
+	echo "loop $a end" >> /etc_rw/iozone_test/log/$log_path)done
+	

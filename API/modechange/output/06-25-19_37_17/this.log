@@ -1,0 +1,4 @@
+Tue, 25 Jun 2019 19:37:17 [line:126] INFO ============start loop 1============
+Tue, 25 Jun 2019 19:37:20 [line:48] INFO Turn On
+Tue, 25 Jun 2019 19:37:20 [line:155] ERROR could not open port 'COM12': WindowsError(5, '\xbe\xdc\xbe\xf8\xb7\xc3\xce\xca\xa1\xa3')
+Tue, 25 Jun 2019 19:37:20 [line:156] INFO End!
