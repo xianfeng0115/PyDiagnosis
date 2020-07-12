@@ -6,6 +6,7 @@ class Diagnosis():
         self.canMsg = CANAPI_5G()
         self.excel = pyExcel()
         self.ExpectResult = self.excel.can_dict
+    # 循环发送网络报文前置条件
     def SeedNetworkMessage(self):
         self.network_msg = {'ID': '41F', 'DATA': ['02', '70', '01', '00', '00', '00', '00', '00']}
         self.canMsg.Timing_send_can(self.network_msg,0.010, display=0)
@@ -46,11 +47,17 @@ class Diagnosis():
         self.ExpectResult = str(self.ExpectResult['%s'%DID])
         return (self.ActualResult,self.ExpectResult)
 
+    def ReadNRC(self,CANcmd):
+        Readresult = self.canMsg.SendMsgFormanyResp(CANcmd,'71c')
+        self.result = Readresult[0]['DATA'][3]
+        return self.result
+
     def close(self):
         self.canMsg.close()
 
 if __name__=='__main__':
     diag = Diagnosis()
-    print(diag.ResultProcess_bcd('F1AA'))
+    seedcmd= {'ID': '714', 'DATA': ['02', '10', '00', '00', '00', '00', '00', '00']}
+    print(diag.ReadNRC(seedcmd))
     diag.close()
 
